@@ -1,0 +1,119 @@
+<head><title>Sign in form</title><meta name="viewport" content="width=device-width"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript">
+  
+function confirm("do you want to continue"){
+var x=document.getElementById("i");
+x.onclick("do you want to continue");
+if(result==true){
+  alert ("welcome back!");
+}
+else{
+  alert("please sign in");
+}
+}
+
+
+
+
+
+
+
+
+  </script>
+</head>
+<body>
+ 
+  <style>
+  body{
+    background:url("kum.jpg");
+    background-attachment: fixed;
+       background-size: 100% 100%;
+  }
+  h1{
+    text-align: center;
+    color:cyan;
+    font-size:40px;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-family: Garamond;
+  }
+    
+  #i{
+    height:30px;
+    width:50px;
+    background-color:green;
+    border-radius: 35px 5px 35px 5px;
+    padding:10px;
+    box-shadow: 20px 20px 0 0 white,0 0 10px 32px red;
+  }
+  #button:hover{
+    color: yellow;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:hover{
+    color: red;
+  }
+    p{
+      color:cyan;
+      font-size: 20px;
+    }
+    .iris{
+      background-image:;
+      background-repeat: ;
+     padding:20px;
+     box-shadow: 10px 1px 20px 1px pink,4px 15px 9px 2px green,3px 19px 2px 25px khaki;
+     overflow:scroll;
+     animation-name: picto;
+     animation-duration: 16s;
+     animation-iteration-count: infinite;
+     animation-delay: 5s;
+     filter:drop-shadow(5px 4px 2px purple);
+    }
+    @keyframes picto{
+      8%{background-image:url("u.jpg");}
+      40%{background-image:url("kuma.jpg");}
+      75%{background-image:url("ku.jpg" );}
+      100%{background-image: url("k.jpg");}
+    }
+    .btn{
+      background-color: pink;
+      padding: 10px;
+      border-radius: 0 20px 0 20px;
+      box-shadow: 2px 1px 3px 6px blue,2px 0 5px 10px red;
+      font-family: cursive;
+      font-size: 20px;
+      border: 13px green;
+      filter: drop-shadow(4px 9px 6px green);
+    }
+    .input,.name,.pass{
+      background: transparent;
+      opacity: 10px;
+      border-radius:3px 10px 4px 12px;
+      padding:6px;
+      box-shadow: 2px 3px 3px 2px red;
+      border:8px green;
+      caret-color: red;
+      color: cyan;
+      font-size:20px;
+      font-family: cursive;
+    }
+     .placeholder {
+      color:green;
+    }
+  </style>
+  <h1>Mateo Schools</h1>
+  <p> If you already have account <div id="i"onclick="confirm ()"><a href="./niwa.html">Login</a></div></p><br/>
+  <form onsubmit="return validate" method="post">
+  <div class="iris">
+    <p><input class="name"type="name"required>first name</p>
+    <p><input class="name"type="name"required>second name</p>
+    <p><input class="name"type="name"placeholder="optional">middle name</p>
+    <p><input class="name"type="name"required>user name</p>
+    <p>email<input class="input" type="email"required></p>
+    <p><input class="pass" type="password"required>password</p>
+    <p><input class="pass" type="password"placeholder="re-enter password"required></p>
+    <p><input class="btn"type="submit"required></p>
+    </form>
+  </div>
+  </body>

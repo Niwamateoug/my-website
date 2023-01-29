@@ -1,0 +1,65 @@
+<head><title>Login form</title><meta name="viewport" content="width=device-width"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body>
+<h1>MATEO SCHOOLS</h1>
+<h2>WELCOME BACK!🙂</h2>
+<div class="center">
+<div id="log"><p>Login form</p>
+<form onsubmit="return validate"method="post">
+ <p> <input class="email" type="email"required="">enter email</p>
+ <p><input class="pass" type="password"required="mateo"> type in password</p>
+ <input type="submit"class="btn"value="login">
+</form>
+</div>
+</div>
+<style>
+.center{
+  
+}
+  body{
+    background-image: url("ru.jpg");
+       background-size: 100% 100%;
+  }
+  h1{
+    color:cyan;
+    text-align: center;
+    font-size:50px;
+    font-family: Times New Roman;
+  }
+  #log{
+    background-color: green;
+    height:50%;
+    padding:4px;
+    width: 70%;
+    border-radius:7px 40px 6px 20px ;
+    box-shadow: 7px 9px 9px 6px yellow,9px 10px 20px 9px red;
+    
+  }
+  h2{
+    color:cyan;
+    font-family: fantasy;
+  }
+  p{
+    color: indigo;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .btn{
+    background-color: pink;
+      padding: 10px;
+      border-radius: 0 20px 0 20px;
+      box-shadow: 2px 1px 3px 6px blue,2px 0 5px 10px red;
+      font-family: cursive;
+      font-size: 20px;
+      border: 13px green;
+      filter: drop-shadow(4px 9px 6px green);
+  }
+  .email,.pass{
+    background-color: khaki;
+      opacity: 10px;
+      border-radius:3px 10px 4px 12px;
+      padding:6px;
+      box-shadow: 2px 3px 3px 2px red;
+      border:8px green;
+  }
+</style>
+</body>
