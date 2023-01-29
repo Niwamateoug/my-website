@@ -1,0 +1,100 @@
+<head><title>Learn Coding at Mateo schools</title><meta name="viewport" content="width=device-width"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript">
+   var images = [
+    'ooh.jpg', 
+    'pham.jpg', 
+    'ru.jpg'
+];
+var num = 0;
+function next() {
+    var slider = document.getElementById('slider');
+    num++;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+}
+function prev() {
+    var slider = document.getElementById('slider');
+    num--;
+    if(num < 0) {
+        num = images.length-1;
+    }
+    slider.src = images[num];
+}
+   </script></head>
+<body><style>
+h1.i{
+  position: fixed;
+  float:left;
+}
+
+body{
+  background-image:url("matp.jpg");
+  background-attachment: fixed;
+     background-size: 100% 100%;
+}
+h1{
+  color:cyan;
+  font-size:40px;
+  position:static;
+}
+p,optgroup{
+  color: green;
+  font-size:20px;
+}
+.k{
+  transform-origin: 30% 90%;
+  transform: rotate(10deg);
+  color:khaki;
+  font-size: 20px;
+  font-family: cursive;
+  background-color:yellow;
+  height:30px;
+  width:50px;
+  padding:5px;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 10px 10px 5px 5px blue,0 0 10px 5px pink
+;
+}
+a:link{
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color:green;
+}
+a: visited {
+  color:cyan;
+}
+#man{
+  box-shadow: 8px 1px 30px 9px orange,1px 8px 9px 30px red;
+}        #jk{
+          padding: 4px;
+      border-radius: 0 20px 0 20px;
+      box-shadow: 2px 1px 3px 6px blue;
+      font-family: cursive;
+      font-size: 20px;
+      background-color: red;
+      border: 13px green;
+  
+        }
+}
+</style>
+<b><i><h1 class="i">MATEO SCHOOLS</i></b></h1>
+  <div class="k"><a href="./mateo.html">sign in</a></div
+>
+  <h1> Today computer skills are highly needed in our digital world, at home ,at work with friends everywhere</h1>
+  <p>Today is your lucky day! Do you know why? <em>Your going to be exposed to not just computer skills but computer science as well isn't that sweet.</em><p>
+    <b>here are some examples of programming languages<div class="an"><optgroup>.html<option>html5</option><option>CSS</option><option>JavaScript</option><option
+>Java</option><option
+>C++</option><option>Swift</option><option>and many others as we shall be seeing</option></optgroup></div>
+<p> There are over 1000 programming languages but here we shall look at the most valid languages.<s>starting from the low level language as we advance to the high level languages</s> most importantly what are the two types of programming languages anyway?... Worry not i got you covered!</p>
+<p>high level languages are the languages used for general purpose advancements like android development for java, artificial intelligence in python, etc...<p>
+  <p>Low level languages are those used in web development like html,css and JavaScript.<p>
+    <quote> So you think you have what it takes to be a programmer and change the world well if yea then your in the right place my friend.</quote></b>
+    <p>to start learning and having a better user experience<div class="k"><a href="./mateo.html">sign in</a></div></p><div id="man">
+       <button id="jk" onclick="prev()"> Prev </button>
+            <img id="slider" src="ru.jpg" width="270px" height="400px"/>
+            <button id="jk" onclick="next()"> Next </button>
+        </div><p>Future of programming is ours</o>
+    </body>
